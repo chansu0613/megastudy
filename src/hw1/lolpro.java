@@ -3,8 +3,6 @@ package hw1;
 import java.util.*;
 
 public class lolpro {
-
-public class test {
     public static void main(String[] args) {
         HashMap myList = new HashMap();
         List toplist = new ArrayList();
@@ -28,7 +26,6 @@ public class test {
 
         List list = (List) myList.get(position);
         list.add(champion);
-
         System.out.println(myList);
 
         System.out.print("Champ : ");
@@ -36,10 +33,35 @@ public class test {
         System.out.print("Position : ");
         position = sc.nextLine();
 
-        if (!Arrays.asList(myList).contains(position)) {
-            list = (List) myList.get(position);
-            list.add(champion);
-            System.out.println(myList);
-        }
+        list = (List) myList.get(position);
+        list.add(champion);
+        System.out.println(myList);
+
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
+        System.out.print("Position : ");
+        position = sc.nextLine();
+
+        list = (List) myList.get(position);
+        list.add(champion);
+        System.out.println(myList);
+
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
+        System.out.print("Position : ");
+        position = sc.nextLine();
+
+        list = (List) myList.get(position);
+        list.add(champion);
+        System.out.println(myList);
+
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
+        System.out.print("Position : ");
+        position = sc.nextLine();
+
+        list = (List) myList.get(position);
+        list.add(champion);
+        System.out.println(myList);
     }
 }
