@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class selectyours {
     Scanner sc = new Scanner(System.in);
-    String selectionCh = sc.nextLine();
-    String selectionPo = sc.nextLine();
+    String selectionCh;
+    String selectionPo;
 
     selectyours(){
-
+        this.selectionCh = sc.nextLine();
+        this.selectionPo = sc.nextLine();
     }
 
-    void selectingChampPose{
+    void selectingChampPose(){
 
     }
 }
