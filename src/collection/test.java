@@ -39,7 +39,6 @@ public class test {
             list.add(champion);
             System.out.println(myList);
         }
-        continue;
 
 
 
