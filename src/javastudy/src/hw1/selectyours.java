@@ -8,6 +8,6 @@ public class selectyours {
     String selectionPo = sc.nextLine();;
 
     void selectingChampPose(){
-        60
+
     }
 }
