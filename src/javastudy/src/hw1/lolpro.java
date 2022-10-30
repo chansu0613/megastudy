@@ -19,46 +19,46 @@ public class lolpro {
         myList.put("spt",sptlist);
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Champ : ");
-        String champion = sc.nextLine();
         System.out.print("Position : ");
         String position = sc.nextLine();
+        System.out.print("Champ : ");
+        String champion = sc.nextLine();
 
         List list = (List) myList.get(position);
         list.add(champion);
         System.out.println(myList);
 
-        System.out.print("Champ : ");
-        champion = sc.nextLine();
         System.out.print("Position : ");
         position = sc.nextLine();
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
 
         list = (List) myList.get(position);
         list.add(champion);
         System.out.println(myList);
 
-        System.out.print("Champ : ");
-        champion = sc.nextLine();
         System.out.print("Position : ");
         position = sc.nextLine();
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
 
         list = (List) myList.get(position);
         list.add(champion);
         System.out.println(myList);
 
-        System.out.print("Champ : ");
-        champion = sc.nextLine();
         System.out.print("Position : ");
         position = sc.nextLine();
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
 
         list = (List) myList.get(position);
         list.add(champion);
         System.out.println(myList);
 
-        System.out.print("Champ : ");
-        champion = sc.nextLine();
         System.out.print("Position : ");
         position = sc.nextLine();
+        System.out.print("Champ : ");
+        champion = sc.nextLine();
 
         list = (List) myList.get(position);
         list.add(champion);
