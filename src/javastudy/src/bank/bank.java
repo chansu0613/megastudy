@@ -10,6 +10,10 @@ public class bank {
 
         b.depositMoney();
 
+        b.withdrawMoney();
+
+
+
         b.exitProgram();
     }
 }

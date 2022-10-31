@@ -34,6 +34,14 @@ public class account {
     }
 
     void withdrawMoney(){
+        System.out.println("This is your account's current money : " + this.currentMoney);
+        System.out.print("Input money you want to withdraw : ");
+        this.inputMoney = sc.nextInt();
+
+        this.currentMoney -= this.inputMoney;
+        System.out.println("Withdraw is succesful!");
+        System.out.println("Here is your current money in account : " + this.currentMoney);
+
 
     }
 
@@ -45,7 +53,11 @@ public class account {
         System.out.print("Do you really want to quit our program? ( y / n ) ");
         sc.nextLine();
         this.inputStr = sc.nextLine();
-        if (this.inputStr == "y") System.out.println("Quit");
+        System.out.println(this.inputStr);
+        if (this.inputStr == "y") {
+            System.out.println("Quit");
+            System.exit(0);
+        }
         else if (this.inputStr == "n") System.out.println("Back to main menu.");
     }
 
